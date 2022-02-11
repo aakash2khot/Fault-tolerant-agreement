@@ -66,6 +66,7 @@ round, and terminates the protocol, with this value as its decision. If not, it
 flags an error, by printing out an error message, and does not participate
 further in this phase.It can take any action it wants after that, including
 staying stationary\
+\
 The above is a (highly simplified) example of what is known as *the Byzantine Generals problem
 or Byzantine Fault Tolerance (BFT)*, a mechanism used in different applications including
 blockchains!\
